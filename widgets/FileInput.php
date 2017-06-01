@@ -1,5 +1,5 @@
 <?php
-namespace vommuan\filemanager\widgets;
+namespace zozoh94\filemanager\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
@@ -31,9 +31,9 @@ use yii\widgets\InputWidget;
  * ```
  *
  * This class provides filemanager usage. You can optional select all media file info to your input field.
- * More samples of usage see on github: https://github.com/vommuan/yii2-filemanager
+ * More samples of usage see on github: https://github.com/zozoh94/yii2-filemanager
  *
- * @package vommuan\filemanager\widgets
+ * @package zozoh94\filemanager\widgets
  * @author Zabolotskikh Boris <zabolotskich@bk.ru>
  */
 class FileInput extends InputWidget

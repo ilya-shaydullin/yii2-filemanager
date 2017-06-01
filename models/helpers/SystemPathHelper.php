@@ -1,6 +1,6 @@
 <?php
 
-namespace vommuan\filemanager\models\helpers;
+namespace zozoh94\filemanager\models\helpers;
 
 use yii\base\Model;
 

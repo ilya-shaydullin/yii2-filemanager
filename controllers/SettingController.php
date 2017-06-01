@@ -1,12 +1,12 @@
 <?php
 
-namespace vommuan\filemanager\controllers;
+namespace zozoh94\filemanager\controllers;
 
 use Yii;
 use yii\web\Controller;
 use yii\web\ForbiddenHttpException;
-use vommuan\filemanager\Module;
-use vommuan\filemanager\models\MediaFile;
+use zozoh94\filemanager\Module;
+use zozoh94\filemanager\models\MediaFile;
 
 class SettingController extends Controller
 {

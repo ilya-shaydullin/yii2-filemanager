@@ -1,9 +1,9 @@
 <?php
-namespace vommuan\filemanager\models;
+namespace zozoh94\filemanager\models;
 
 use yii\db\ActiveRecord;
 use yii\behaviors\TimestampBehavior;
-use vommuan\filemanager\Module;
+use zozoh94\filemanager\Module;
 
 class Thumbnail extends ActiveRecord
 {

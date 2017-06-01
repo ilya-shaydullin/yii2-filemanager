@@ -1,8 +1,8 @@
 <?php
 
-use vommuan\filemanager\assets\FileManagerAsset;
-use vommuan\filemanager\Module;
-use vommuan\filemanager\widgets\FileManager;
+use zozoh94\filemanager\assets\FileManagerAsset;
+use zozoh94\filemanager\Module;
+use zozoh94\filemanager\widgets\FileManager;
 
 /* @var $this yii\web\View */
 

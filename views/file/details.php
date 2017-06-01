@@ -1,12 +1,12 @@
 <?php
 
-use vommuan\filemanager\assets\FileGalleryAsset;
-use vommuan\filemanager\Module;
+use zozoh94\filemanager\assets\FileGalleryAsset;
+use zozoh94\filemanager\Module;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model vommuan\filemanager\models\MediaFile */
+/* @var $model zozoh94\filemanager\models\MediaFile */
 /* @var $form yii\widgets\ActiveForm */
 
 $bundle = FileGalleryAsset::register($this);

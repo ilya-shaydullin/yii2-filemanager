@@ -1,6 +1,6 @@
 <?php
 
-use vommuan\filemanager\Module;
+use zozoh94\filemanager\Module;
 use yii\data\Pagination;
 use yii\widgets\LinkPager;
 

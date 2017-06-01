@@ -1,7 +1,7 @@
 <?php
 
-use vommuan\filemanager\assets\FileInputAsset;
-use vommuan\filemanager\widgets\FileManager;
+use zozoh94\filemanager\assets\FileInputAsset;
+use zozoh94\filemanager\widgets\FileManager;
 
 FileInputAsset::register($this);
 ?>

@@ -1,8 +1,8 @@
 <?php
 
-namespace vommuan\filemanager\models;
+namespace zozoh94\filemanager\models;
 
-use vommuan\filemanager\Module;
+use zozoh94\filemanager\Module;
 use Yii;
 use yii\data\ActiveDataProvider;
 

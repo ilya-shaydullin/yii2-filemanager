@@ -1,11 +1,11 @@
 <?php
 
-namespace vommuan\filemanager\models;
+namespace zozoh94\filemanager\models;
 
 use Yii;
 use yii\db\ActiveRecord;
 use yii\behaviors\TimestampBehavior;
-use vommuan\filemanager\Module;
+use zozoh94\filemanager\Module;
 
 /**
  * This is the model class for table "filemanager_owner".

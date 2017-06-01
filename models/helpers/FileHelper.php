@@ -1,8 +1,8 @@
 <?php
-namespace vommuan\filemanager\models\helpers;
+namespace zozoh94\filemanager\models\helpers;
 
 /**
- * @author Michael Naumov <vommuan@gmail.com>
+ * @author Michael Naumov <zozoh94@gmail.com>
  */
 class FileHelper extends \yii\helpers\FileHelper
 {

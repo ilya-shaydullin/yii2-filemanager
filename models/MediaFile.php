@@ -1,11 +1,11 @@
 <?php
-namespace vommuan\filemanager\models;
+namespace zozoh94\filemanager\models;
 
 use Yii;
 use yii\db\ActiveRecord;
 use yii\behaviors\TimestampBehavior;
-use vommuan\filemanager\Module;
-use vommuan\filemanager\models\handlers\HandlerFactory;
+use zozoh94\filemanager\Module;
+use zozoh94\filemanager\models\handlers\HandlerFactory;
 
 /**
  * This is the model class for table "{{%filemanager_mediafile}}".
@@ -50,7 +50,7 @@ class MediaFile extends ActiveRecord
 	public $cropHeight;
 	
 	/**
-	 * @var vommuan\filemanager\models\handlers\BaseHandler or child class
+	 * @var zozoh94\filemanager\models\handlers\BaseHandler or child class
 	 */
 	protected $handler;
 	

@@ -1,15 +1,15 @@
 <?php
 
-namespace vommuan\filemanager\models\forms;
+namespace zozoh94\filemanager\models\forms;
 
 use yii\base\Model;
-use vommuan\filemanager\Module;
+use zozoh94\filemanager\Module;
 
 /**
  * Form for edit image. Rotating, cropping and others.
  * 
  * @license MIT
- * @author Michael Naumov <vommuan@gmail.com>
+ * @author Michael Naumov <zozoh94@gmail.com>
  */
 class EditImageForm extends Model
 {

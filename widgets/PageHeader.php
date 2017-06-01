@@ -1,6 +1,6 @@
 <?php
 
-namespace vommuan\filemanager\widgets;
+namespace zozoh94\filemanager\widgets;
 
 use yii\base\Widget;
 
