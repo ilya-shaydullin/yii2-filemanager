@@ -21,7 +21,7 @@ Add
 ```
 {
 	"type": "git",
-	"url": "https://github.com/vommuan/yii2-filemanager"
+	"url": "https://github.com/zozoh94/yii2-filemanager.git"
 }
 ```
 
