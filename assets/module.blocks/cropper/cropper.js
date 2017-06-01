@@ -11,11 +11,9 @@ function cropperInit(options) {
     var crop = controlButton.closest('.cropper').find('.crop-image').eq(0);
 		if (controlButton.hasClass('controls__rotate_left')) {
 			crop.cropper('rotate', -90);
-			crop.cropper('clear');
 			crop.cropper('crop');
 		} else {
 			crop.cropper('rotate', 90);
-			crop.cropper('clear');
 			crop.cropper('crop');
 		}
 	});
