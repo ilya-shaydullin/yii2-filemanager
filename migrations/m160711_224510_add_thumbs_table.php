@@ -24,7 +24,7 @@ class m160711_224510_add_thumbs_table extends Migration
 			'updated_at' => $this->integer(),
 		], $tableOptions);
 
-		$this->addForeignKey('fk_mediafile_id', '{{%filemanager_thumbnail}}', 'mediafile_id', '{{%filemanager_mediafile}}', 'id', 'CASCADE', 'CASCADE');
+		$this->addForeignKey('fk_thumbnail_mediafile_id', '{{%filemanager_thumbnail}}', 'mediafile_id', '{{%filemanager_mediafile}}', 'id', 'CASCADE', 'CASCADE');
 		
 		// thumbnail's converter
 		$mediaFiles = (new Query())
