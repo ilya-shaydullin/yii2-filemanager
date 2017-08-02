@@ -16,18 +16,7 @@ This module provide interface to collect and access all mediafiles in one place.
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
-Add
-
-```
-{
-	"type": "git",
-	"url": "https://github.com/zozoh94/yii2-filemanager.git"
-}
-```
-
-to the repositories section of your `composer.json` file.
-
-Then run 
+run 
 
 ```
 php composer.phar require zozoh94/yii2-filemanager "@dev"
