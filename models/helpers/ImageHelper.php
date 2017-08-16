@@ -20,7 +20,7 @@ class ImageHelper
      * @param $imagePath
      * @param $markPath
      */
-    public static function pasteWatermark($imagePath, $imagePathTo, $markPath = 'frontend/web/images/logo-watermark.png')
+    public static function pasteWatermark($imagePath, $imagePathTo, $markPath = 'assets/module.blocks/images/logo-watermark.png')
     {
         $imagine = new Imagine();
 
