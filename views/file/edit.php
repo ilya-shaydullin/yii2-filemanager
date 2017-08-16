@@ -1,6 +1,6 @@
 <?php
 
-use zozoh94\filemanager\Module;
+use ilusha2012\filemanager\Module;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 

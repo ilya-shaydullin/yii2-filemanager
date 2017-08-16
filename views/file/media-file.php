@@ -1,6 +1,6 @@
 <?php
 
-use zozoh94\filemanager\assets\FileGalleryAsset;
+use ilusha2012\filemanager\assets\FileGalleryAsset;
 use yii\helpers\Html;
 
 $bundle = FileGalleryAsset::register($this);

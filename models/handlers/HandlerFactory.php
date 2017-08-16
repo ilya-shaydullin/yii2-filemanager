@@ -1,13 +1,13 @@
 <?php
 
-namespace zozoh94\filemanager\models\handlers;
+namespace ilusha2012\filemanager\models\handlers;
 
 use yii\base\Model;
 
 /**
  * Project template Factory
  * 
- * @author Michael Naumov <zozoh94@gmail.com>
+ * @author Michael Naumov <ilusha2012@gmail.com>
  */
 class HandlerFactory extends Model
 {

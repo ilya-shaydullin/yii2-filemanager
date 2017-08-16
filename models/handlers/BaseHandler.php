@@ -1,25 +1,25 @@
 <?php
-namespace zozoh94\filemanager\models\handlers;
+namespace ilusha2012\filemanager\models\handlers;
 
 use Yii;
 use yii\base\Model;
 use yii\helpers\Inflector;
 use yii\base\Exception;
 use yii\base\UserException;
-use zozoh94\filemanager\Module;
-use zozoh94\filemanager\models\MediaFile;
-use zozoh94\filemanager\models\Routes;
-use zozoh94\filemanager\models\helpers\FileHelper;
+use ilusha2012\filemanager\Module;
+use ilusha2012\filemanager\models\MediaFile;
+use ilusha2012\filemanager\models\Routes;
+use ilusha2012\filemanager\models\helpers\FileHelper;
 
 /**
  * Base file handler
  * 
- * @author Michael Naumov <zozoh94@gmail.com>
+ * @author Michael Naumov <ilusha2012@gmail.com>
  */
 class BaseHandler extends Model
 {
 	/**
-	 * @var zozoh94\filemanager\models\Routes
+	 * @var ilusha2012\filemanager\models\Routes
 	 */
 	protected $_routes;
 	
@@ -47,7 +47,7 @@ class BaseHandler extends Model
 	/**
 	 * Get access for readonly Routes object
 	 * 
-	 * @return zozoh94\filemanager\models\Routes
+	 * @return ilusha2012\filemanager\models\Routes
 	 */
 	public function getRoutes()
 	{

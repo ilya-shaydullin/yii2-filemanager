@@ -1,6 +1,6 @@
 <?php
-use zozoh94\filemanager\Module;
-use zozoh94\filemanager\widgets\TopMenu;
+use ilusha2012\filemanager\Module;
+use ilusha2012\filemanager\widgets\TopMenu;
 
 $this->beginContent('@app/views/layouts/main.php');?>
 

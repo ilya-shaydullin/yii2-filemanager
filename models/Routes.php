@@ -1,13 +1,13 @@
 <?php
 
-namespace zozoh94\filemanager\models;
+namespace ilusha2012\filemanager\models;
 
 use Yii;
 use yii\base\Model;
 use yii\base\UserException;
-use zozoh94\filemanager\Module;
-use zozoh94\filemanager\models\helpers\FileHelper;
-use zozoh94\filemanager\models\helpers\SystemPathHelper;
+use ilusha2012\filemanager\Module;
+use ilusha2012\filemanager\models\helpers\FileHelper;
+use ilusha2012\filemanager\models\helpers\SystemPathHelper;
 
 /**
  * This is the helper model class for route paths

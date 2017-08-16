@@ -1,8 +1,8 @@
 <?php
 
-namespace zozoh94\filemanager\models;
+namespace ilusha2012\filemanager\models;
 
-use zozoh94\filemanager\Module;
+use ilusha2012\filemanager\Module;
 use Yii;
 use yii\data\ActiveDataProvider;
 

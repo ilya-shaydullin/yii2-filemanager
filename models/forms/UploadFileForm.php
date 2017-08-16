@@ -1,8 +1,8 @@
 <?php
 
-namespace zozoh94\filemanager\models\forms;
+namespace ilusha2012\filemanager\models\forms;
 
-use zozoh94\filemanager\models\MediaFile;
+use ilusha2012\filemanager\models\MediaFile;
 use yii\base\Model;
 use yii\web\UploadedFile;
 
@@ -10,7 +10,7 @@ use yii\web\UploadedFile;
  * Form for upload files
  * 
  * @license MIT
- * @author Michael Naumov <zozoh94@gmail.com>
+ * @author Michael Naumov <ilusha2012@gmail.com>
  */
 class UploadFileForm extends Model
 {

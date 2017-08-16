@@ -1,6 +1,6 @@
 <?php
 
-use zozoh94\filemanager\assets\PageHeaderAsset;
+use ilusha2012\filemanager\assets\PageHeaderAsset;
 
 PageHeaderAsset::register($this);
 ?>

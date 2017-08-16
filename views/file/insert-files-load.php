@@ -1,12 +1,12 @@
 <?php
 
-use zozoh94\filemanager\assets\FileGalleryAsset;
-use zozoh94\filemanager\Module;
+use ilusha2012\filemanager\assets\FileGalleryAsset;
+use ilusha2012\filemanager\Module;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $mediaFiles array of zozoh94\filemanager\models\MediaFile */
+/* @var $mediaFiles array of ilusha2012\filemanager\models\MediaFile */
 
 $bundle = FileGalleryAsset::register($this);
 ?>

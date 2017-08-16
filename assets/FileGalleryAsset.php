@@ -1,5 +1,5 @@
 <?php
-namespace zozoh94\filemanager\assets;
+namespace ilusha2012\filemanager\assets;
 
 use yii\web\AssetBundle;
 
@@ -16,8 +16,8 @@ class FileGalleryAsset extends AssetBundle
     ];
     
     public $depends = [
-        'zozoh94\filemanager\assets\GalleryPagerAsset',
-        'zozoh94\filemanager\assets\GallerySummaryAsset',
+        'ilusha2012\filemanager\assets\GalleryPagerAsset',
+        'ilusha2012\filemanager\assets\GallerySummaryAsset',
         'yii\bootstrap\BootstrapAsset',
     ];
 }

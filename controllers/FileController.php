@@ -1,14 +1,14 @@
 <?php
 
-namespace zozoh94\filemanager\controllers;
+namespace ilusha2012\filemanager\controllers;
 
-use zozoh94\filemanager\assets\FileGalleryAsset;
-use zozoh94\filemanager\models\MediaFile;
-use zozoh94\filemanager\models\MediaFileSearch;
-use zozoh94\filemanager\models\forms\EditImageForm;
-use zozoh94\filemanager\models\forms\UpdateFileForm;
-use zozoh94\filemanager\models\forms\UploadFileForm;
-use zozoh94\filemanager\Module;
+use ilusha2012\filemanager\assets\FileGalleryAsset;
+use ilusha2012\filemanager\models\MediaFile;
+use ilusha2012\filemanager\models\MediaFileSearch;
+use ilusha2012\filemanager\models\forms\EditImageForm;
+use ilusha2012\filemanager\models\forms\UpdateFileForm;
+use ilusha2012\filemanager\models\forms\UploadFileForm;
+use ilusha2012\filemanager\Module;
 use Yii;
 use yii\base\UserException;
 use yii\filters\VerbFilter;

@@ -1,7 +1,7 @@
 <?php
 
-use zozoh94\filemanager\models\MediaFileSearch;
-use zozoh94\filemanager\Module;
+use ilusha2012\filemanager\models\MediaFileSearch;
+use ilusha2012\filemanager\Module;
 use yii\widgets\ListView;
 
 $pagerParams = [

@@ -1,11 +1,11 @@
 <?php
-namespace zozoh94\filemanager\widgets;
+namespace ilusha2012\filemanager\widgets;
 
 use Yii;
 use yii\base\Widget;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use zozoh94\filemanager\Module;
+use ilusha2012\filemanager\Module;
 
 class TopMenu extends Widget
 {

@@ -1,9 +1,9 @@
 <?php
 
 use dosamigos\fileupload\FileUploadUI;
-use zozoh94\filemanager\models\MediaFileSearch;
-use zozoh94\filemanager\models\forms\UploadFileForm;
-use zozoh94\filemanager\Module;
+use ilusha2012\filemanager\models\MediaFileSearch;
+use ilusha2012\filemanager\models\forms\UploadFileForm;
+use ilusha2012\filemanager\Module;
 
 ?>
 
