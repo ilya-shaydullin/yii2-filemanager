@@ -53,11 +53,6 @@ class ImageHelper
         $width = $size->getWidth();
         $height = $size->getHeight();
 
-        if (($width < $wWidth) || $height < $wHeight) {
-            Yii::error('Image is very small' . $imagePath);
-            return 0;
-        }
-
         $percentage = ($width / 4) / $wWidth;
         $percentageMargin = ($width / 16) / $wWidth;
 
