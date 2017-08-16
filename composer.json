@@ -3,7 +3,6 @@
     "description": "Yii2 filemanager",
     "type": "yii2-extension",
     "license": "MIT",
-    "version": "0.13.1",
     "authors": [
         {
             "name": "PendalF",
