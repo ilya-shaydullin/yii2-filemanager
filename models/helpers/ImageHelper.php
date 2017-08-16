@@ -16,24 +16,25 @@ use Yii;
 
 class ImageHelper
 {
+
+    CONST WATERMARK_LOGO = __DIR__ . '/../../assets/module.blocks/images/logo-watermark.png';
+
     /**
      * Insert watermark at image with proportional resize.
      * @param $imagePath
      * @param $markPath
      * @return bool
      */
-    public static function pasteWatermark($imagePath, $imagePathTo, $markPath = '../../assets/module.blocks/images/logo-watermark.png')
+    public static function pasteWatermark($imagePath, $imagePathTo, $markPath = self::WATERMARK_LOGO)
     {
 
-        $markPath = realpath($markPath);
-
-        if (!file_exists($imagePath)){
-            Yii::error('Image file not exist!');
+        if (!file_exists($imagePath)) {
+            Yii::error('Image file not exist!' . $imagePath);
             return 0;
         }
 
-        if (!file_exists($markPath)){
-            Yii::error('Mark file not exist!' . __DIR__);
+        if (!file_exists($markPath)) {
+            Yii::error('Mark file not exist!' . $markPath);
             return 0;
         }
 
@@ -52,8 +53,13 @@ class ImageHelper
         $width = $size->getWidth();
         $height = $size->getHeight();
 
-        $percentage = ($width / 4 ) / $wWidth;
-        $percentageMargin = ($width / 16 ) / $wWidth;
+        if (($width < $wWidth) || $height < $wHeight) {
+            Yii::error('Image is very small' . $imagePath);
+            return 0;
+        }
+
+        $percentage = ($width / 4) / $wWidth;
+        $percentageMargin = ($width / 16) / $wWidth;
 
         $watermark->resize(new Box($wWidth * $percentage, $wHeight * $percentage));
         $x = $width - $wWidth * $percentage;
