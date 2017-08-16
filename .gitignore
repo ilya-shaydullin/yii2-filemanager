@@ -14,3 +14,6 @@ Thumbs.db
 
 # KDE
 .directory
+
+vendor
+composer.lock
