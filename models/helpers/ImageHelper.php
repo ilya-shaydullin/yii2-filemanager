@@ -20,9 +20,12 @@ class ImageHelper
      * Insert watermark at image with proportional resize.
      * @param $imagePath
      * @param $markPath
+     * @return bool
      */
-    public static function pasteWatermark($imagePath, $imagePathTo, $markPath = 'assets/module.blocks/images/logo-watermark.png')
+    public static function pasteWatermark($imagePath, $imagePathTo, $markPath = '../../assets/module.blocks/images/logo-watermark.png')
     {
+
+        $markPath = realpath($markPath);
 
         if (!file_exists($imagePath)){
             Yii::error('Image file not exist!');
@@ -30,7 +33,7 @@ class ImageHelper
         }
 
         if (!file_exists($markPath)){
-            Yii::error('Mark file not exist!');
+            Yii::error('Mark file not exist!' . __DIR__);
             return 0;
         }
 
