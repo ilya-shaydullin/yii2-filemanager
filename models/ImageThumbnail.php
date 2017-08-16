@@ -1,23 +1,23 @@
 <?php
-namespace vommuan\filemanager\models;
+namespace ilusha2012\filemanager\models;
 
 use yii\base\Model;
 use yii\base\ErrorException;
 use yii\imagine\Image;
 use Imagine\Image\ImageInterface;
-use vommuan\filemanager\Module;
-use vommuan\filemanager\models\handlers\ImageHandler;
-use vommuan\filemanager\models\helpers\FileHelper;
+use ilusha2012\filemanager\Module;
+use ilusha2012\filemanager\models\handlers\ImageHandler;
+use ilusha2012\filemanager\models\helpers\FileHelper;
 
 /**
  * This is the model class for working with images thumbnails
  * 
- * @author Michael Naumov <vommuan@gmail.com>
+ * @author Michael Naumov <ilusha2012@gmail.com>
  */
 class ImageThumbnail extends Model
 {
     /**
-     * @var vommuan\filemanager\models\handlers\ImageHandler image handler
+     * @var ilusha2012\filemanager\models\handlers\ImageHandler image handler
      */
     public $handler;
     

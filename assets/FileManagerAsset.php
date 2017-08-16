@@ -1,6 +1,6 @@
 <?php
 
-namespace vommuan\filemanager\assets;
+namespace ilusha2012\filemanager\assets;
 
 use yii\web\AssetBundle;
 
@@ -20,10 +20,10 @@ class FileManagerAsset extends AssetBundle
     ];
     
     public $depends = [
-        'vommuan\filemanager\assets\FileGalleryAsset',
-        'vommuan\filemanager\assets\DetailsFormAsset',
-        'vommuan\filemanager\assets\CropImageAsset',
-        'vommuan\filemanager\assets\FontAwesomeAsset',
+        'ilusha2012\filemanager\assets\FileGalleryAsset',
+        'ilusha2012\filemanager\assets\DetailsFormAsset',
+        'ilusha2012\filemanager\assets\CropImageAsset',
+        'ilusha2012\filemanager\assets\FontAwesomeAsset',
         'yii\bootstrap\BootstrapAsset',
         'yii\web\JqueryAsset',
     ];

@@ -5,7 +5,7 @@
  * 
  * Usage: 
  * ```bash
- * yii message/extract @vendor/vommuan/yii2-filemanager/config/i18n.php
+ * yii message/extract @vendor/ilusha2012/yii2-filemanager/config/i18n.php
  * ```
  */
 return [

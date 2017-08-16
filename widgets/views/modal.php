@@ -1,7 +1,7 @@
 <?php
 
-use vommuan\filemanager\assets\FileInputAsset;
-use vommuan\filemanager\widgets\FileManager;
+use ilusha2012\filemanager\assets\FileInputAsset;
+use ilusha2012\filemanager\widgets\FileManager;
 
 FileInputAsset::register($this);
 ?>

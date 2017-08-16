@@ -6,7 +6,7 @@
  * Time: 14:16
  */
 
-namespace vommuan\filemanager\models\helpers;
+namespace ilusha2012\filemanager\models\helpers;
 
 
 use Imagine\Gd\Imagine;

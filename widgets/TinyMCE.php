@@ -1,10 +1,10 @@
 <?php
-namespace vommuan\filemanager\widgets;
+namespace ilusha2012\filemanager\widgets;
 
 use Yii;
 use yii\widgets\InputWidget;
 use yii\web\JsExpression;
-use vommuan\filemanager\assets\FileInputAsset;
+use ilusha2012\filemanager\assets\FileInputAsset;
 use pendalf89\tinymce\TinyMce as TinyMceWidget;
 use yii\helpers\Url;
 

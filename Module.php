@@ -1,6 +1,6 @@
 <?php
 
-namespace vommuan\filemanager;
+namespace ilusha2012\filemanager;
 
 use Yii;
 
@@ -9,7 +9,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'vommuan\filemanager\controllers';
+    public $controllerNamespace = 'ilusha2012\filemanager\controllers';
     
     /**
      * @inheritdoc

@@ -1,5 +1,5 @@
 {
-    "name": "vommuan/yii2-filemanager",
+    "name": "ilusha2012/yii2-filemanager",
     "description": "Yii2 filemanager",
     "type": "yii2-extension",
     "license": "MIT",
@@ -11,7 +11,7 @@
         },
         {
             "name": "Michael Naumov",
-            "email": "vommuan@gmail.com",
+            "email": "ilusha2012@gmail.com",
             "homepage": "http://itdevweb.com",
             "role": "Contributor"
         }
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "vommuan\\filemanager\\": ""
+            "ilusha2012\\filemanager\\": ""
         }
     }
 }

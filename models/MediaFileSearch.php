@@ -1,8 +1,8 @@
 <?php
 
-namespace vommuan\filemanager\models;
+namespace ilusha2012\filemanager\models;
 
-use vommuan\filemanager\Module;
+use ilusha2012\filemanager\Module;
 use Yii;
 use yii\data\ActiveDataProvider;
 

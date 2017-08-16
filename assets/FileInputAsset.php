@@ -1,6 +1,6 @@
 <?php
 
-namespace vommuan\filemanager\assets;
+namespace ilusha2012\filemanager\assets;
 
 use yii\web\AssetBundle;
 

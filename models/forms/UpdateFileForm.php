@@ -1,6 +1,6 @@
 <?php
 
-namespace vommuan\filemanager\models\forms;
+namespace ilusha2012\filemanager\models\forms;
 
 use yii\base\Model;
 
@@ -8,12 +8,12 @@ use yii\base\Model;
  * Form for update file information
  * 
  * @license MIT
- * @author Michael Naumov <vommuan@gmail.com>
+ * @author Michael Naumov <ilusha2012@gmail.com>
  */
 class UpdateFileForm extends Model
 {
 	/**
-	 * @var vommuan\filemanager\models\MediaFile
+	 * @var ilusha2012\filemanager\models\MediaFile
 	 */
 	public $mediaFile;
 	

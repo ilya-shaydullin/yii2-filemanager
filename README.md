@@ -21,7 +21,7 @@ Add
 ```
 {
 	"type": "git",
-	"url": "https://github.com/vommuan/yii2-filemanager"
+	"url": "https://github.com/ilusha2012/yii2-filemanager"
 }
 ```
 
@@ -30,13 +30,13 @@ to the repositories section of your `composer.json` file.
 Then run 
 
 ```
-php composer.phar require vommuan/yii2-filemanager "@dev"
+php composer.phar require ilusha2012/yii2-filemanager "@dev"
 ```
 
 or add 
 
 ```
-"vommuan/yii2-filemanager": "@dev"
+"ilusha2012/yii2-filemanager": "@dev"
 ```
 
 to the require section of your `composer.json` file.
@@ -44,7 +44,7 @@ to the require section of your `composer.json` file.
 Apply migration
 
 ```
-yii migrate --migrationPath=@vendor/vommuan/yii2-filemanager/migrations/
+yii migrate --migrationPath=@vendor/ilusha2012/yii2-filemanager/migrations/
 ```
 
 ## Configuration
@@ -52,7 +52,7 @@ yii migrate --migrationPath=@vendor/vommuan/yii2-filemanager/migrations/
 ```php
 'modules' => [
     'filemanager' => [
-        'class' => 'vommuan\filemanager\Module',
+        'class' => 'ilusha2012\filemanager\Module',
         
         // Rename files
         'rename' => false,
@@ -246,7 +246,7 @@ Set true to enable autoupload. Default value: `false`.
 Simple standalone field:
 
 ```php
-use vommuan\filemanager\widgets\FileInput;
+use ilusha2012\filemanager\widgets\FileInput;
 
 echo $form->field($model, 'original_thumbnail')->widget(FileInput::className(), [
     'buttonTag' => 'button',
@@ -305,7 +305,7 @@ echo FileInput::widget([
 With TinyMCE:
 
 ```php
-use vommuan\filemanager\widgets\TinyMCE;
+use ilusha2012\filemanager\widgets\TinyMCE;
 
 <?= $form->field($model, 'content')->widget(TinyMCE::className(), [
     'clientOptions' => [
@@ -324,7 +324,7 @@ use vommuan\filemanager\widgets\TinyMCE;
 In model you must set mediafile behavior like this example:
 
 ```php
-use vommuan\filemanager\behaviors\MediaFileBehavior;
+use ilusha2012\filemanager\behaviors\MediaFileBehavior;
 
 public function behaviors()
 {
@@ -344,7 +344,7 @@ Than, you may get mediafile from your owner model.
 See example:
 
 ```php
-use vommuan\filemanager\models\MediaFile;
+use ilusha2012\filemanager\models\MediaFile;
 
 $model = Post::findOne(1);
 $mediaFile = MediaFile::loadOneByOwner('post', $model->id, 'thumbnail');

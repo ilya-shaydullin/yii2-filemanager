@@ -1,8 +1,8 @@
 <?php
-namespace vommuan\filemanager\models\handlers;
+namespace ilusha2012\filemanager\models\handlers;
 
-use vommuan\filemanager\models\ImageThumbnail;
-use vommuan\filemanager\Module;
+use ilusha2012\filemanager\models\ImageThumbnail;
+use ilusha2012\filemanager\Module;
 use Yii;
 use yii\base\ErrorException;
 use yii\imagine\Image;
@@ -10,12 +10,12 @@ use yii\imagine\Image;
 /**
  * Image handler
  * 
- * @author Michael Naumov <vommuan@gmail.com>
+ * @author Michael Naumov <ilusha2012@gmail.com>
  */
 class ImageHandler extends BaseHandler
 {
 	/**
-	 * @var vommuan\filemanager\models\ImageThumbnail
+	 * @var ilusha2012\filemanager\models\ImageThumbnail
 	 */
 	protected $_imageThumbnail;
 	
@@ -57,7 +57,7 @@ class ImageHandler extends BaseHandler
 		$ignoreRotate = Module::getInstance()->ignoreImageRotate;
 		
 		if (! is_array($maxSizes) || count($maxSizes) != 2) {
-			throw new ErrorException('Error module "vommuan\\filemanager\\' . Module::className() . '" settings: maxImageSizes');
+			throw new ErrorException('Error module "ilusha2012\\filemanager\\' . Module::className() . '" settings: maxImageSizes');
 		}
 		
 		$originSizes = array_slice(getimagesize($this->absoluteFileName), 0, 2);

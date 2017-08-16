@@ -1,6 +1,6 @@
 <?php
 
-use vommuan\filemanager\Module;
+use ilusha2012\filemanager\Module;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 

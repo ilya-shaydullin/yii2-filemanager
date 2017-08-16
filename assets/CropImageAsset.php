@@ -1,6 +1,6 @@
 <?php
 
-namespace vommuan\filemanager\assets;
+namespace ilusha2012\filemanager\assets;
 
 use yii\web\AssetBundle;
 
@@ -17,6 +17,6 @@ class CropImageAsset extends AssetBundle
     ];
     
     public $depends = [
-        'vommuan\filemanager\assets\CropperAsset',
+        'ilusha2012\filemanager\assets\CropperAsset',
     ];
 }
