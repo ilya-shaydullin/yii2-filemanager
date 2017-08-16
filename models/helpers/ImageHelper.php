@@ -12,6 +12,7 @@ namespace ilusha2012\filemanager\models\helpers;
 use Imagine\Gd\Imagine;
 use Imagine\Image\Box;
 use Imagine\Image\Point;
+use Yii;
 
 class ImageHelper
 {
@@ -22,6 +23,17 @@ class ImageHelper
      */
     public static function pasteWatermark($imagePath, $imagePathTo, $markPath = 'assets/module.blocks/images/logo-watermark.png')
     {
+
+        if (!file_exists($imagePath)){
+            Yii::error('Image file not exist!');
+            return 0;
+        }
+
+        if (!file_exists($markPath)){
+            Yii::error('Mark file not exist!');
+            return 0;
+        }
+
         $imagine = new Imagine();
 
         $watermark = $imagine->open($markPath);
@@ -48,6 +60,8 @@ class ImageHelper
 
         $image->paste($watermark, $bottomRight);
         $image->save($imagePathTo);
+
+        return true;
     }
 
 }
