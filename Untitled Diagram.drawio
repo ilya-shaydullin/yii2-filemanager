@@ -1,9 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T08:56:32.897Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-lTXhHkeCJ7_nPy0UpZ-" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T09:04:14.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="RfBVO6Hc7cGfttiKptj7" version="16.4.7" type="github">
   <diagram id="N4CEanCRNSqffaU_9qj7" name="Page-1">
-    <mxGraphModel dx="1496" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="855" dy="1654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eEluBngz4-3uTjK-GSmv-2" value="Nebula" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-70" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-4" value="Stardust&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="245" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="eEluBngz4-3uTjK-GSmv-7" target="eEluBngz4-3uTjK-GSmv-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-7" value="HS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="eEluBngz4-3uTjK-GSmv-8" target="eEluBngz4-3uTjK-GSmv-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-8" value="HM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-9" value="SHS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-10" value="SHM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-13" value="ProductProfile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-50" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eEluBngz4-3uTjK-GSmv-14" value="SProductProfile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
